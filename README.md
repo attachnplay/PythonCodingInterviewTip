@@ -12,3 +12,10 @@
 - build a new sorted list from the iterable
 - sorted(<list>)
   
+
+### defaultdict
+  - collections.defaultdict(int)
+  - 
+  
+  
+  
