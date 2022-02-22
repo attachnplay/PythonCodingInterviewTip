@@ -16,6 +16,16 @@
 - sorted(list_data)
 - reverse
   - sorted(list_data, reverse=True)  
+```python
+test = ['bbb', 'aa', 'cccccc']
+# Reverse sort
+print(sorted(test, reverse=True))
+# Sort by length
+print(sorted(test, key=lambda x: len(x)))
+# Original data
+print(test)
+```
+
 
 ### defaultdict
   - collections.defaultdict(int)
