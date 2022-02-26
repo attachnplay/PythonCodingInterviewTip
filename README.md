@@ -25,11 +25,22 @@ print(sorted(test, key=lambda x: len(x)))
 # Original data
 print(test)
 ```
+- custom comparison
+  - 
+  ```
+  def compare(x, y):
+    if x + y > y + x:
+      return -1
+    else:
+      return 1
+  sorted(list_data, key=cmp_to_key(compare))
+  ```
 
 
 ### defaultdict
   - collections.defaultdict(int)
   - 
-  
+
+### map
   
   
